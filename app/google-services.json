@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909012108559",
+    "project_id": "question-bank-175de",
+    "storage_bucket": "question-bank-175de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909012108559:android:dbd11259f309aa2a9caa7a",
+        "android_client_info": {
+          "package_name": "com.example.questionbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909012108559-3jn85or90i81t4hqhvccufnerdo0ghlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe_ac8YUydIrHf13Q7o6uv3duRulViHk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909012108559-3jn85or90i81t4hqhvccufnerdo0ghlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

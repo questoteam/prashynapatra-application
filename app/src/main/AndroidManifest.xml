@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kk"
+        android:label="Prashanaa patra"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestionBank"
+        tools:targetApi="31">
+        <activity
+            android:name=".alldisplaycouses"
+            android:exported="false" />
+        <activity
+            android:name=".displayallsem"
+            android:exported="false" />
+        <activity
+            android:name=".allbranch"
+            android:exported="false" />
+        <activity
+            android:name=".uploadfile"
+            android:exported="false" />
+        <activity
+            android:name=".viewpdf"
+            android:exported="false" />
+        <activity
+            android:name=".pdf_display"
+            android:exported="false" />
+        <activity
+            android:name=".make_account"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screeen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

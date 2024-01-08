@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Questo</string>
+    <string name="create_a_account">Create a account</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="lm">lm</string>
+    <string name="home">home</string>
+    <string name="call">call</string>
+    <string name="setting">setting</string>
+    <string name="logout">logout</string>
+    <string name="todo">TODO</string>
+    <string name="help">help</string>
+    <string name="gpn">(GPN)</string>
+
+</resources>
